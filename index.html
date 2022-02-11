@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Score Keeper</title>
+</head>
+<body>
+    <div class="scorekeeper">
+
+        <div class="container container1"> 
+            <h1><img src="./BTK-logos.jpeg" id="logo" alt="logo"></h1>
+
+        </div>
+
+        <div class="container container2"> 
+            <img src="https://media.istockphoto.com/vectors/table-tennis-ping-pong-woman-female-girl-athlete-play-sport-vector-id514992044" id="tennis" alt="playingtennis">
+       
+            <div class="scorekeeper__score">
+                <h1>Scores</h1>
+                <h2><span id="player1">0</span> to <span id="player2">0</span></h2>
+            
+                <label for="winScore">Score to Win</label>
+                <input type="number" id="winScore" value="5" min="1" max="10" >
+            </div>
+
+        </div>
+
+        <div class="container">
+            <div class="scorekeeper__buttons">
+                <button id="forplayer1">+1 for Player 1</button>
+                <button id="forplayer2">+1 for Player 2</button>
+                <button id="forReset" type="reset">RESET</button>
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
